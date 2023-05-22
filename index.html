@@ -5,56 +5,82 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
   <title>Document</title>
 </head>
 
 <body>
-  <div>
-    <div>
+  <div class="container">
+    <div class="bannerContainer">
       <div class="logo">
-        <img src="assets/img/odin-lined.png" alt="" srcset="">
-        <span>ODIN</span>
+        <div class="logo-container">
+          <img src="assets/img/odin-lined.png" alt="" srcset="" class="img-odin">
+          <span>ODIN</span>
+        </div>
       </div>
-      <div class="logo-texts"></div>
+      <div class="logo-texts">Photo by Halie West on Unsplash</div>
     </div>
-    <div>
+    <div class="form-container">
       <div class="explain">
-
+        <div>
+          This is not a real service! You know need something like this in
+          your life to help yo realize your deepest dreams Sign up <i>now</i> and get started
+          <p>You know you want to</p>
+        </div>
       </div>
-      <div>
+      <div class="formCont">
         <form action="">
-          <div>
-            <label for=""></label>
-            <input type="text">
+          <div class="lets"><span> Lets Do this! </span></div>
+          <div class="Names">
+            <div class="firstName">
+              <label for="firstName">First Name</label>
+              <input type="text" name="firstName">
+            </div>
+            <div class="lastName">
 
-            <label for=""></label>
-            <input type="text"> </input>
-
-          </div>
-          <div>
-            <label for=""></label>
-            <input type="text">
-
-            <label for=""></label>
-            <input type="text"> </input>
+              <label for="lastName">Last Name</label>
+              <input type="text" name="lastName"> </input>
+            </div>
 
           </div>
-          <div>
-            <label for=""></label>
-            <input type="text">
+          <div class="data">
+            <div class="email">
+              <label for="email">Email</label>
+              <input type="text" name="email">
+            </div>
 
-            <label for=""></label>
-            <input type="text"> </input>
+            <div class="phoneNumber">
+              <label for="phoneNumber">Phone Number</label>
+              <input type="text" name="phoneNumber"> </input>
+            </div>
 
           </div>
-        </form>
+          <div class="contrasenas">
+            <div class="password">
+              <label for="password">Password</label>
+              <input type="text" name="password">
+            </div>
+
+            <div class="confirmPass">
+              <label for="confirmar">Confirm Password</label>
+              <input type="text" name="confirmar"> </input>
+            </div>
+
+          </div>
+
       </div>
-      <div>
-        <div></div>
-        <div> </div>
+      <div class="buttons">
+        <div>
+          <button type="submit" class="boton">Create Account</button>
+        </div>
+        </form>
+        <div>
+          <p>Already have an account? Log in</p>
+        </div>
       </div>
     </div>
   </div>
+  <script src="script.js"></script>
 </body>
 
 </html>
